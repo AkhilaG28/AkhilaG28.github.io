@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="dark.css" id="theme">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -15,24 +16,32 @@
   </head>
   <body>
       <!-- Top Nav -->
-        <div class="container-fluid mb-5">
-            <div class="row">
-                <div class="col heading py-3">PORTFOLIO</div>
+        <div class="container-fluid pb-5">
+            <div class="row heading">
+                <div class="col-10 py-3">PORTFOLIO</div>
+                <div class="col-2 pt-1">
+                    <h6 id="themeName">Dark</h6>
+                        <label class="switch">
+                            <input type="checkbox" checked id="mode">
+                            <span class="slider round"></span>
+                        </label>
+                </div>
             </div>
         </div>
-        <div style="height: 100px;"></div>
+
+        <div class="black" style="height: 100px;"></div>
 
         <!-- Intro -->
-        <div class="container mb-5" style="border-top-left-radius: 10%; border-bottom-right-radius: 10%;">
+        <div class="container-fluid pb-5" style="border-top-left-radius: 10%; border-bottom-right-radius: 10%;">
             <div class="row relative">
-                <div class="col-8 bg p-5">
+                <div class="col-8 bgHead p-5">
                     <h1 data-aos="fade-right" data-aos-duration="900">Akhila Gajulapalli</h1>
                     <p class="col-8 pb-4 pt-2 intro" data-aos="fade-down" data-aos-duration="1000">
                         Observant and motivated Full Stack Developer. Possess a strong
                         attention to detail and eager to learn new skills and languages to
                         keep on building and updating skills.
                     </p>
-                    <p class="contact ml-5" data-aos="zoom-in-up" data-aos-duration="1100">
+                    <p class="contact pl-5" data-aos="zoom-in-up" data-aos-duration="1100">
                         <a href="https://www.linkedin.com/in/akhila-g-a82bb385/" target="blank"><i class="fab fa-linkedin text-white ml-5 fa-2x"></i></a>
                         <span class="mx-5 contact"><a href="https://github.com/AkhilaG28" target="blank"><i class="fab fa-github text-white fa-2x"></i></a></span><span><a href="https://twitter.com/akhila_g28" target="blank"><i class="fab fa-twitter text-white fa-2x"></i></a></span>
                     </p>
@@ -50,10 +59,10 @@
                 </div>
             </div>
         </div>
-        <div style="height: 100px;"></div>
+        <div class="black" style="height: 100px;"></div>
 
         <!-- Tech Stacks -->
-        <div class="container">
+        <div class="container-fluid">
             <div class="row pb-3">
                 <div class="col headColor text-center">
                     <h2>Tech Stacks</h2>
@@ -83,10 +92,10 @@
             </div>
         </div>
 
-        <div style="height:100px;"></div>
+        <div class="black" style="height:100px;"></div>
 
         <!-- Proficiencies -->
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col headColor text-center">
                     <h2>Proficiencies</h2>
@@ -108,10 +117,10 @@
             </div>
         </div>
 
-        <div style="height: 100px;"></div>
+        <div class="black" style="height: 100px;"></div>
 
         <!-- Projects -->
-        <div class="container mt-5">
+        <div class="container-fluid pt-5">
             <div class="row">
                 <div class="col headColor text-center pb-4">
                     <h2>Projects</h2>
@@ -133,7 +142,7 @@
                                     ><i class="fas fa-link text-white"></i></a
                                 ></span>
                             </div>
-                            <h6>Restaurant Booking System</h6>
+                            <h6>Restaurant Blling System</h6>
                             <div><i class="fab fa-html5 usedTech"></i><span><i class="fab fa-css3-alt px-2 usedTech"></i></span><span><i class="fab fa-js-square usedTech"></i></span></div>
                         </div>
                     </div>
@@ -173,7 +182,7 @@
                                 ><i class="fas fa-link text-white"></i></a
                                 ></span>
                             </div>
-                            <h6>Event Booking System</h6>
+                            <h6>Events Booking System</h6>
                             <div><i class="fab fa-html5 usedTech"></i><span><i class="fab fa-css3-alt px-2 usedTech"></i></span><span><i class="fab fa-js-square usedTech"></i></span><span><i class="fab fa-bootstrap mt-4 usedTech pl-2"></i></span></div>
                         </div>
                     </div>
@@ -193,7 +202,7 @@
                                 ><i class="fas fa-link text-white"></i></a
                                 ></span>
                             </div>
-                            <h6>Hotel Management System</h6>
+                            <h6>Hotel Rooms Booking System</h6>
                             <div><i class="fab fa-html5 usedTech"></i><span><i class="fab fa-css3-alt px-2 usedTech"></i></span><span><i class="fab fa-js-square usedTech"></i></span><span><i class="fab fa-bootstrap mt-4 usedTech pl-2"></i></span></div>
                         </div>
                     </div>
@@ -262,7 +271,7 @@
             </div>
         </div>
 
-        <div style="height: 100px;"></div>
+        <div class="black" style="height: 100px;"></div>
 
         <!-- Hours of coding -->
         <div class="container-fluid bg text-center py-5">
@@ -275,7 +284,7 @@
                             <h2 class="text-light text-center">1200+</h2>
                         </div>
                     </div>
-                    <h5 class="text-light pl-4 mt-4">Hours of Coding</h5>
+                    <h5 class="text-light pl-4 pt-4">Hours of Coding</h5>
                 </div>
 
                 <!-- DS Problems -->
@@ -285,7 +294,7 @@
                             <h2 class="text-light text-center">300+</h2>
                         </div>
                     </div>
-                    <h5 class="text-light pl-5 mt-4">DS Problems</h5>
+                    <h5 class="text-light pl-5 pt-4">DS Problems</h5>
                 </div>                
                 
                 <!-- Git Commits -->
@@ -295,7 +304,7 @@
                             <h2 class="text-light text-center">300+</h2>
                         </div>
                     </div>
-                    <h5 class="text-light pl-5 mt-4">Git Commits</h5>
+                    <h5 class="text-light pl-5 pt-4">Git Commits</h5>
                 </div>   
             </div>
         </div>

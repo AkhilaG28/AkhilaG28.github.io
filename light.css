@@ -1,0 +1,30 @@
+.techStacks {
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    color: white;
+}
+.headColor {
+    color: #e91e63;
+}
+
+.proficient + div {
+    color: darkmagenta;
+    font-size: 20px;
+}
+
+.bg,
+.bgHead,
+.overlay,
+.heading {
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
+
+.contact {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.usedTech {
+    color: #fdfc47;
+}
