@@ -25,7 +25,7 @@ a {
   animation-iteration-count: infinite;
 }
 .myName::after{
-  content: "|";
+  content: "_";
   position: absolute;
   right: 0;
   animation: caret infinite;
@@ -37,11 +37,11 @@ a {
   0%,
   50%,
   100% {
-    width: 2.8em;
+    width: 2.9em;
   }
   10%,
   40% {
-    width: 7.5em;
+    width: 7.8em;
   }
 }
 @keyframes caret {
