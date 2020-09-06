@@ -1,5 +1,5 @@
 * {
-  font-family: Simonetta;
+  font-family: cursive;
 }
 
 .left .text-muted {
@@ -13,6 +13,7 @@ a {
 
 .myName{
   animation: myName;
+  font-family:cursive;
 }
 
 .myName{
@@ -78,7 +79,7 @@ a {
 }
 
 .projectHead {
-  font-family: cursive;
+  font-family: 'Parisienne',cursive;
 }
 
 .headColor,
@@ -212,4 +213,26 @@ input:checked + .slider:before {
 
 .btn {
   border: 5px solid black;
+}
+
+.contactCard {
+  height:200px;
+  width:400px;
+  font-size: 20px;
+  border-radius:5px;
+}
+
+.contactLine {
+  width: 20%;
+  background-color:white;
+  height:3px;
+  margin:5% 40%;
+}
+
+.contactLine + div {
+  font-family: sans-serif;
+}
+
+.contactText {
+  font-family: 'Khand', sans-serif;
 }

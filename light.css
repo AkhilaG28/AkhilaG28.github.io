@@ -15,7 +15,8 @@
 .bg,
 .bgHead,
 .overlay,
-.heading {
+.heading,
+.contactCard {
   background-color: #000000;
   background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
 }
