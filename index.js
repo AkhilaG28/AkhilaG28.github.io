@@ -1,33 +1,52 @@
-let mode = document.getElementById('mode')
-let theme =  document.getElementById('theme')
+let mode = document.getElementById("mode");
+let theme = document.getElementById("theme");
 
-function changeMode(){
-    console.log(mode.checked);
-    console.log(theme);
-    mode.checked ? (
-        document.getElementById('themeName').textContent='Dark',theme.href="dark.css")
-        :(document.getElementById('themeName').textContent='Light',theme.href="light.css")
+function changeMode() {
+  console.log(mode.checked);
+  console.log(theme);
+  mode.checked
+    ? ((document.getElementById("themeName").textContent = "Dark"),
+      (theme.href = "dark.css"))
+    : ((document.getElementById("themeName").textContent = "Light"),
+      (theme.href = "light.css"));
 }
 
-mode.addEventListener("click",changeMode)
-// let keyboard = document.getElementById( 'player' )
-// window.addEventListener( 'load', () => {
-//     let videos = document.querySelectorAll( '.video' )
-//     for ( let i = 0; i < videos.length; i++ ) {
-//         videos[ i ].addEventListener( 'click', playVideo )
-//     }
-// } )
+mode.addEventListener("click", changeMode);
 
-// playVideo = () => {
-//     let projectName = event.target.parentElement.previousElementSibling.textContent
-//     console.log( projectName );
-//     keyboard.load();
-//     keyboard.play();
-// }   
+let counter_up = document.querySelector(".counterUp");
+counter_up.addEventListener("mouseover", () => {
+  const counters = document.querySelectorAll(".counter");
+  const speed = 100; // The lower the slower
 
-AOS.init( {
-    disable: function () {
-        var maxWidth = 746;
-        return window.innerWidth < maxWidth;
-    }
-} )
+  counters.forEach((counter) => {
+    const updateCount = () => {
+      const target = +counter.getAttribute("data-target");
+      const count = +counter.innerText;
+
+      // Lower inc to slow and higher to slow
+      const inc = Math.floor(target / speed);
+
+      // console.log(inc);
+      // console.log(count);
+
+      // Check if target is reached
+      if (count < target) {
+        // Add inc to count and output in counter
+        counter.innerText = count + inc;
+        // Call function every ms
+        setTimeout(updateCount, 30);
+      } 
+      else 
+        counter.innerText = `${target}+`;
+    };
+
+    updateCount();
+  });
+});
+
+AOS.init({
+  disable: function () {
+    var maxWidth = 746;
+    return window.innerWidth < maxWidth;
+  },
+});
