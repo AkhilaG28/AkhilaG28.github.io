@@ -16,6 +16,10 @@ a {
   font-family:cursive;
 }
 
+.calendar {
+  color:black;
+}
+
 .myName{
   overflow: hidden;
   white-space: nowrap;
