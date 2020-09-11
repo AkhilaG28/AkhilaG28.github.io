@@ -2,13 +2,13 @@
   font-family: cursive;
 }
 
-.left .text-muted {
-  color:white;
-}
-
-a {
+.navBar {
   text-decoration: none;
   color: white !important;
+}
+
+.left .text-muted {
+  color:green;
 }
 
 .myName{
@@ -16,7 +16,7 @@ a {
   font-family:cursive;
 }
 
-.calendar {
+#calendar {
   color:black;
 }
 

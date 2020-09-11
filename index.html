@@ -12,10 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Khand&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='https://unpkg.com/aos@2.3.0/dist/aos.css'>
-    <link
-  rel="stylesheet"
-  href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
-/>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
     <script
   src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
 </script>
@@ -29,11 +26,11 @@
             <div class="row heading">
                 <!-- <div class="col-10 py-3">PORTFOLIO</div> -->
                 <div class="col pt-3" id="homeText"><a href="#">Home</a></div>
-                <div class="col pt-3"><a href="#tech">Tech Stacks</a></div>
-                <div class="col pt-3"><a href="#proficiencies">Proficiencies</a></div>
-                <div class="col pt-3"><a href="#projects">Projects</a></div>
-                <div class="col pt-3"><a href="resume.html" target="blank">Resume</a></div>
-                <div class="col pt-3"><a href="#contact">Contact Me</a></div>
+                <div class="col pt-3"><a class="navBar" href="#tech">Tech Stacks</a></div>
+                <div class="col pt-3"><a class="navBar" href="#proficiencies">Proficiencies</a></div>
+                <div class="col pt-3"><a class="navBar" href="#projects">Projects</a></div>
+                <div class="col pt-3"><a class="navBar" href="resume.html" target="blank">Resume</a></div>
+                <div class="col pt-3"><a class="navBar" href="#contact">Contact Me</a></div>
                 
                 <div class="col-2 pt-1">
                     <h6 id="themeName">Dark</h6>
@@ -52,7 +49,7 @@
             <div class="row relative">
                 <div class="col-8 offset-1 bgHead p-5">
                     <h1 class="myName" data-aos="fade-right" data-aos-duration="900">Akhila Gajulapalli</h1>
-                    <h3 data-aos="fade-left" data-aos-duration="950" style="font-family:'monospace';">Full Stack Developer</h3>
+                    <h3 data-aos="fade-left" data-aos-duration="950" style="font-family:'monospace'" class="text-white">Full Stack Developer</h3>
                     <p class="col-8 pb-4 pt-2 intro" data-aos="fade-down" data-aos-duration="1000">
                         Observant and motivated Full Stack Developer. Possess a strong
                         attention to detail and eager to learn new skills and languages to
@@ -67,7 +64,9 @@
                         <span class="contact pl-4"><i class="fas fa-envelope text-white"></i> </span><span class="text-white font-weight-normal pl-2">gakhila281994@gmail.com</gakhila281994@gmail.com></span>
                     </p>
                     <div class="mt-4 col-10 bg-white" data-aos="zoom-out" data-aos-duration="1400">
-                        <div class="calendar">
+                        <div class="calendar" id="calendar">
+                            <h4 class="kodchasan-font" style="color: #707070;"><a href="https://github.com/AkhilaG28"
+                                target="_blank">AkhilaG28 on GitHub</a></h4>
                             <!-- Loading stuff -->
                             Loading Github Calendar
                         </div>                        
@@ -299,7 +298,7 @@
                         </div>
                     </div>
                     <h5 class="text-light pl-2 pt-4">Hours of Coding</h5>
-                    <div>
+                    <div class="icon">
                         <i class="fas fa-keyboard fa-3x"></i>
                     </div>
                 </div>
@@ -312,7 +311,7 @@
                         </div>
                     </div>
                     <h5 class="text-light pl-2 pt-4">DS Problems</h5>
-                    <div>
+                    <div class="icon">
                         <i class="fab fa-hackerrank fa-3x"></i>
                     </div>
                 </div>                
@@ -325,7 +324,7 @@
                         </div>
                     </div>
                     <h5 class="text-light pl-2 pt-4">Git Commits</h5>
-                    <div>
+                    <div class="icon">
                         <i class="fab fa-github fa-3x"></i>
                     </div>
                 </div>   
@@ -338,7 +337,7 @@
                         </div>
                     </div>
                     <h5 class="text-light pl-3 pt-4">Soft Skills</h5>
-                    <div>
+                    <div class="icon">
                         <i class="fas fa-handshake fa-3x"></i>
                     </div>
                 </div>
@@ -380,9 +379,9 @@
         <div class="container-fluid">
             <div class="row pb-5">
                 <div class="col offset-4">
-                    <a href="https://www.linkedin.com/in/akhila-g-a82bb385/" target="blank"><i class="fab fa-linkedin text-white ml-5 fa-2x"></i></a>
-                        <span class="mx-5 contact"><a href="https://github.com/AkhilaG28" target="blank"><i class="fab fa-github text-white fa-2x"></i></a></span>
-                        <span><a href="https://twitter.com/akhila_g28" target="blank"><i class="fab fa-twitter text-white fa-2x"></i></a></span>
+                    <a href="https://www.linkedin.com/in/akhila-g-a82bb385/" target="blank"><i class="fab fa-linkedin contactLight ml-5 fa-2x"></i></a>
+                        <span class="mx-5 contact"><a href="https://github.com/AkhilaG28" target="blank"><i class="fab fa-github contactLight fa-2x"></i></a></span>
+                        <span><a href="https://twitter.com/akhila_g28" target="blank"><i class="fab fa-twitter contactLight fa-2x"></i></a></span>
                 </div>
             </div>
         </div>

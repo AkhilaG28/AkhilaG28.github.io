@@ -12,6 +12,10 @@
     font-size: 20px;
 }
 
+#homeText > a {
+    color: white;
+}
+
 .bg,
 .bgHead,
 .overlay,
@@ -28,4 +32,12 @@
 
 .usedTech {
     color: #fdfc47;
+}
+
+.contactLight {
+    color: #04619f;
+}
+
+.icon {
+    color:white;
 }
