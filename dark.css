@@ -1,6 +1,8 @@
-* {
-    color: whitesmoke;
+#proficiencies,#projects {
+    color: white;
 }
+
+
 
 .container-fluid,.black{
     background:black;
@@ -21,10 +23,16 @@
 .techStacks,
 .contactCard {
   background-color: #000000;
-  background-image: linear-gradient(147deg, #f0f2f0 0%, #000c40 51%, #f0f2f0 100%);
+  background-image: linear-gradient(147deg, #f0f2f0 0%, #0c2461 51%, #f0f2f0 100%);
+
 }
 
 .bgHead{
     background-color: #000000;
-    background-image: linear-gradient(147deg, #000c40 0%, #f0f2f0 70%, #000c40 82%); 
+    background-image: linear-gradient(147deg, #000c40 0%, #f0f2f0 70%, #000c40 82%);
+    /* background-image: linear-gradient(147deg, #f0f2f0 0%, #0c2461 70%, #f0f2f0 82%); */
+}
+
+.techStacksHead > .row, .stats > .row, .contactMe > .row, .socialIcons > .fab {
+    color:whitesmoke;
 }

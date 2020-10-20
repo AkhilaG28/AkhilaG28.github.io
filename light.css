@@ -1,14 +1,16 @@
 .techStacks {
     background-color: #000000;
-    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    background-image: linear-gradient(147deg, #22a6b3 0%,#7ed6df 50%, #38ada9 74%);
     color: white;
 }
 .headColor {
-    color: #e91e63;
+    /* color: #e91e63; */
+    color:#B33771;
 }
 
 .proficient + div {
-    color: darkmagenta;
+    /* color: darkmagenta; */
+    color:#B33771;
     font-size: 20px;
 }
 
@@ -22,7 +24,8 @@
 .heading,
 .contactCard {
   background-color: #000000;
-  background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+  /* background-image: linear-gradient(147deg, #000000 0%, #04619f 74%); */
+      background-image: linear-gradient(147deg, #22a6b3 0%,#7ed6df 50%, #38ada9 74%);
 }
 
 .contact {
@@ -35,7 +38,8 @@
 }
 
 .contactLight {
-    color: #04619f;
+    /* color: #04619f; */
+    color:#00cec9;
 }
 
 .icon {

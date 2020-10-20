@@ -35,9 +35,7 @@ counter_up.addEventListener("mouseover", () => {
         counter.innerText = count + inc;
         // Call function every ms
         setTimeout(updateCount, 30);
-      } 
-      else 
-        counter.innerText = `${target}+`;
+      } else counter.innerText = `${target}+`;
     };
 
     updateCount();
@@ -50,3 +48,29 @@ AOS.init({
     return window.innerWidth < maxWidth;
   },
 });
+
+// play and stop the videos
+
+const arrOfVideos = [
+  "restaurantVideo",
+  "cocktailVideo",
+  "learnorbVideo",
+  "zerodhaVideo",
+  "baillyVideo",
+  "expenseManagerVideo",
+];
+
+const play = document.querySelectorAll(".playVideo");
+
+const stopButton = document.querySelectorAll(".stopVideo");
+console.log(play, stopButton);
+for (let i = 0; i < arrOfVideos.length; i++) {
+  let video = document.getElementById(arrOfVideos[i]);
+  console.log(video, i);
+  play[i].addEventListener("click", function () {
+    video.play();
+  });
+  stopButton[i].addEventListener("click", function () {
+    video.pause();
+  });
+}
