@@ -8,19 +8,19 @@
 }
 
 .left .text-muted {
-  color:green;
+  color: green;
 }
 
-.myName{
+.myName {
   animation: myName;
-  font-family:cursive;
+  font-family: cursive;
 }
 
 #calendar {
-  color:black;
+  color: black;
 }
 
-.myName{
+.myName {
   overflow: hidden;
   white-space: nowrap;
   display: inline-block;
@@ -29,7 +29,7 @@
   animation-timing-function: steps(25, end);
   animation-iteration-count: infinite;
 }
-.myName::after{
+.myName::after {
   content: "_";
   position: absolute;
   right: 0;
@@ -82,12 +82,8 @@
   height: 500px;
 }
 
-.projectHead {
-  font-family: 'Parisienne',cursive;
-}
-
 .headColor,
-.proficient + div {
+.projectHead .proficient + div {
   font-family: cursive;
 }
 
@@ -162,7 +158,7 @@ a {
   height: 34px;
 }
 
-.switch input { 
+.switch input {
   opacity: 0;
   width: 0;
   height: 0;
@@ -176,8 +172,8 @@ a {
   right: 0;
   bottom: 0;
   background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .slider:before {
@@ -188,8 +184,8 @@ a {
   left: 4px;
   bottom: 4px;
   background-color: #f0f2f0;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 input:checked + .slider {
@@ -220,17 +216,17 @@ input:checked + .slider:before {
 }
 
 .contactCard {
-  height:200px;
-  width:400px;
+  height: 200px;
+  width: 400px;
   font-size: 20px;
-  border-radius:5px;
+  border-radius: 5px;
 }
 
 .contactLine {
   width: 20%;
-  background-color:white;
-  height:3px;
-  margin:5% 40%;
+  background-color: white;
+  height: 3px;
+  margin: 5% 40%;
 }
 
 .contactLine + div {
@@ -238,5 +234,5 @@ input:checked + .slider:before {
 }
 
 .contactText {
-  font-family: 'Khand', sans-serif;
+  font-family: "Khand", sans-serif;
 }

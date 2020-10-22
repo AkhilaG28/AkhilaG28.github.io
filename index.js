@@ -53,7 +53,7 @@ AOS.init({
 
 const arrOfVideos = [
   "restaurantVideo",
-  "cocktailVideo",
+  "hiratoVideo",
   "learnorbVideo",
   "zerodhaVideo",
   "baillyVideo",
