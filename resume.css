@@ -1,89 +1,89 @@
 .bgDetails {
-    background:#01486e;
+  background: #01486e;
 }
 
 .bgContent {
-    background-color: aliceblue;
-    color: #01579b;
+  background-color: aliceblue;
+  color: #01579b;
 }
 
 .bgIcon {
-    background-color: #01579b;
-    color:white;
-    height:30px;
-    width:30px;
-    padding:5px 0 0 8px;
-    border-radius: 15px;
+  background-color: #01579b;
+  color: white;
+  height: 30px;
+  width: 30px;
+  padding: 5px 0 0 8px;
+  border-radius: 15px;
 }
 
 .verticalLine {
-    background-color: #01579b;
-    margin-left: 13px;
-    width: 2px;
+  background-color: #01579b;
+  margin-left: 13px;
+  width: 2px;
 }
 
 .dot {
-    height:10px;
-    width: 10px;
-    border-radius: 5px;
-    background-color: #01579b;
-    margin-left:9px;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: #01579b;
+  margin-left: 9px;
 }
 
 #line {
-    height:5px;
-    width:70%;
-    background-color: #01579b;
+  height: 5px;
+  width: 70%;
+  background-color: #01579b;
 }
 
 .skills {
-    background-color: aliceblue;
-    color: #01579b;
-    width: fit-content;
-    /* padding:1%; */
-    margin:1% 2%;
-    text-align: center;
-    border-radius: 5px;
+  background-color: aliceblue;
+  color: #01579b;
+  width: fit-content;
+  /* padding:1%; */
+  margin: 1% 2%;
+  text-align: center;
+  border-radius: 5px;
 }
 
-h5{
-    color: #039be5;
+h5 {
+  color: #039be5;
 }
 
-h6{
-    color: dimgray;
-    font-weight: normal;
+h6 {
+  color: dimgray;
+  font-weight: normal;
 }
 
 .years {
-    color:dimgray;
-    float: right;
-    margin-right: 3%;
-    font-size: 14px;
-    font-weight: normal;
+  color: dimgray;
+  float: right;
+  margin-right: 3%;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .descpProject {
-    font-size:14px;
-    color: dimgray;
+  font-size: 14px;
+  color: dimgray;
 }
 
 #projects > li {
-    margin-top:5%;
+  margin-top: 5%;
 }
 
 u {
-    font-size:20px;
+  font-size: 20px;
 }
 
 .resume {
-    background-color: #01579b;
-    color: aliceblue;
-    border: 1px solid #01579b;
-    width: fit-content;
-    padding:4px;    
+  background-color: #01579b;
+  color: aliceblue;
+  border: 1px solid #01579b;
+  width: fit-content;
+  padding: 4px;
 }
 
 .resume:hover {
-    background-color: #0294bd;
+  background-color: #0294bd;
 }
