@@ -23,6 +23,25 @@
   color: white;
 }
 
+/* body {
+  background-image: url("https://image.freepik.com/free-vector/vector-floral-3d-seamless-pattern-background-christmas-invitation-cards-decoration_1284-41314.jpg");
+} */
+
+body {
+  position: relative;
+  background-image: url("https://image.freepik.com/free-vector/vector-floral-3d-seamless-pattern-background-christmas-invitation-cards-decoration_1284-41314.jpg");
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(83, 216, 198, 0.25);
+}
+
 .bg,
 .bgHead,
 .overlay,

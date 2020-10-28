@@ -1,12 +1,31 @@
+/* body {
+  background-image: url("https://image.freepik.com/free-vector/luxurious-background-with-golden-shapes_52683-23982.jpg");
+  /* background-image: url("https://image.freepik.com/free-vector/dark-damask-seamless-pattern-background-elegant-luxury-texture-wallpapers_1217-1174.jpg"); */
+
+body {
+  position: relative;
+  background-image: url("https://image.freepik.com/free-vector/dark-damask-seamless-pattern-background-elegant-luxury-texture-wallpapers_1217-1174.jpg");
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(67, 69, 179, 0.25);
+}
+
 #proficiencies,
 #projects {
   color: white;
 }
 
-.container-fluid,
+/* .container-fluid,
 .black {
   background: black;
-}
+} */
 
 #homeText > a {
   color: #000c40 !important;
@@ -55,5 +74,4 @@
 
 .darkPeaks {
   display: block;
-  background: black;
 }
