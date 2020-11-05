@@ -127,6 +127,10 @@ h1 {
   transition: 0.5s ease;
 }
 
+.imageClass {
+  margin-bottom: 5%;
+}
+
 .imageClass:hover .overlay {
   height: 60%;
 }

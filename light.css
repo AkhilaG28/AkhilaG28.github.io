@@ -57,6 +57,11 @@ body::before {
   );
 }
 
+.projectHead {
+  background: #22a6b3;
+  border-radius: 20px;
+}
+
 .contact {
   color: greenyellow;
   font-weight: bold;
