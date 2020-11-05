@@ -40,7 +40,6 @@
   background-color: aliceblue;
   color: #01579b;
   width: fit-content;
-  /* padding:1%; */
   margin: 1% 2%;
   text-align: center;
   border-radius: 5px;
@@ -53,6 +52,14 @@ h5 {
 h6 {
   color: dimgray;
   font-weight: normal;
+}
+
+.interests {
+  background-color: aliceblue;
+  color: #01579b;
+  margin: 1%;
+  text-align: center;
+  border-radius: 5px;
 }
 
 .years {
