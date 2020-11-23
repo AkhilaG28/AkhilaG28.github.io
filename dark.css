@@ -1,5 +1,6 @@
 body {
   position: relative;
+  background: black;
   background-image: url("https://image.freepik.com/free-vector/dark-damask-seamless-pattern-background-elegant-luxury-texture-wallpapers_1217-1174.jpg");
 }
 
@@ -10,7 +11,7 @@ body::before {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-color: rgba(67, 69, 179, 0.25);
+  background-color: rgb(12, 26, 66, 0.75);
 }
 
 #proficiencies,
@@ -51,8 +52,9 @@ body::before {
   background-image: linear-gradient(
     147deg,
     #000c40 0%,
-    #f0f2f0 70%,
-    #000c40 82%
+    #f0f2f0 5%,
+    #000c40 12%,
+    #f0f2f0 95%
   );
   /* background-image: linear-gradient(147deg, #f0f2f0 0%, #0c2461 70%, #f0f2f0 82%); */
 }

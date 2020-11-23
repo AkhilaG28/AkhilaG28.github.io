@@ -71,15 +71,15 @@
 }
 .relative {
   position: relative;
-  height: 600px;
+  height: 300px;
 }
 
 .absolute {
   position: absolute;
-  top: 10%;
+  top: 20%;
   right: 0;
   left: -10%;
-  height: 500px;
+  height: 300px;
 }
 
 .headColor,
