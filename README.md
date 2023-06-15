@@ -1,6 +1,6 @@
 # Portfolio
 
-### This is personal Portfolio website. Visit [Portfolio](https://akhilag28.github.io)
+### This is personal Portfolio website. Visit [Portfolio](https://akhilagajulapalliportfolio.netlify.app/)
 
 ## Built using
 
